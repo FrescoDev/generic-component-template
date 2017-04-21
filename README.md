@@ -1,6 +1,6 @@
 # __C_NAME__
 
-The __C_ACRONYM__ API is responsible for providing a non-contextual, historic, bidirectional, user-to-system interaction data trail. This data is exposed through a simple RESTful API providing simple a querying mechanism exposed through URL parameters.
+The __C_ACRONYM__ API is responsible for
 
 [Apiary documentation](__APIARY_LINK__)
 
