@@ -8,6 +8,19 @@ describe('Call to POST component spec at /spec endpoint', () => {
         it('should return json', (done) => {
             server
                 .post('/spec')
+                .send({
+                    'component': {
+                        'id': 'uihm',
+                        'name': 'user-inter-hyper-man',
+                        'desc': 'user inter hyper man',
+                        'type': 'ipc',
+                        'routes': [],
+                        'hasPersistenceModule': 'false',
+                        'hasCachingModule': 'false',
+                        'hasLoggingModule': 'false',
+                        'canDocker': 'false'
+                    }
+                })
                 .end((err, res) => {
                     expect(res)
                         .to
