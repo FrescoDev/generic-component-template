@@ -1,12 +1,12 @@
 import BaseHandler from 'fresco-http-service-utilities';
 
-class GetMetaHandler extends BaseHandler {
+class PostSpecHandler extends BaseHandler {
     handle(req, res) {
         res.json({
-            description: '__C_NAME__',
+            description: 'architect',
             health: 'ok'
         });
     }
 }
 
-export default new GetMetaHandler();
+export default new PostSpecHandler();
