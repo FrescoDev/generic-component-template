@@ -1,5 +1,6 @@
 import * as chai from 'chai'
-import server from '../../harness.setup/testing.server'
+
+import server from '../../harness-setup/testing.server'
 
 const expect = chai.expect
 

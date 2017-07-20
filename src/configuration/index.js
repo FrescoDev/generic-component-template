@@ -21,12 +21,9 @@ const environmentConfigs = {
   development: {},
   test: {
     port: 5678,
-    security: {
-      saltRounds: 4
-    }
   },
   production: {}
 };
 
 // Recursively merge configurations
-export default merge(defaultConfig, environmentConfigs[process.env.NODE_ENV] || {});
+export default merge(defaultConfig, environmentConfigs[process.env.NODE_ENV] || {})
