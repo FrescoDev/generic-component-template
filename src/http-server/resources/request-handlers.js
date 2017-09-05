@@ -1,5 +1,5 @@
-import handlerGetMetadataRequest from './metadata/get.request.handler'
+import handleGetServeStatusRequest from './server-status/get.request.handler'
 
 module.exports = {
-    handlerGetMetadataRequest
+    handleGetServeStatusRequest
 }

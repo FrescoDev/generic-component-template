@@ -1,27 +1,32 @@
-# __C_NAME__
+# __API_NAME__
 
-The __C_ACRONYM__ API is responsible for
+Last Edited: <DATE>
+
+The __API_NAME__ API is responsible for <description>
 
 
 [![Build Status](__BUILD_LINK__)](__BUILD_LINK__)
 
+[![Coverage Badge](_COVERAGE_BADGE_LINK__)](LINK)
 
-### Prerequisities
 
-* node/npm
-* docker
-* nodemon
+### Prerequisites
+
+- [Node.js and npm](nodejs.org) Node >= 6.x.x, npm >= 3.x.x
+- (Optional) [Bunyan](https://github.com/trentm/node-bunyan) - The bunyan CLI provides formatted output of JSON logs `npm install -g bunyan`
 
 ### Install and Run Locally
 
-1. Clone the repo
-2. Run: ```npm install``` to install project dependencies
-3. Run: ```npm run build``` to transpile and build the application
-4. Run: ```npm start``` to kickstart and run the server
+1. Run `npm install` to install server dependencies, the post install script should then automatically run the build command which uses Babel to transpile the app into native javascript. The output is produced and output in the build directory
+
+2. Run: `npm start` to kickstart and run the server OR Run: `npm start | bunyan` to kickstart and run the server with prettyfied logging (*requires global install of bunyan). The logging level can be changed by editing the config file (src/api/config). For development, the server is configured to run on: http://localhost:9001/
+
+* Run `npm start:watch` to start the server using nodemon which will restart upon file changeÏ
 
 ## Running the Tests
 
-- ```npm run test```
+* Running `npm test` will run the tests
+* Running `npm run test:watch` will run the tests using nodemon which will re-run the tests upon any file change
 
 ## Testing the API
 
@@ -33,11 +38,11 @@ Test the API using [Postman](https://www.getpostman.com/collections/{id})
 
 ### API Resources
 
-  - [GET /meta](#get-meta)
+  - [GET /server-status](#get-server-status)
 
-### GET /meta
+### GET /server-status
 
-Example: http:/{url}/meta
+Example: http:/{url}/server-status
 
 Response body:
 

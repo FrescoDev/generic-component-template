@@ -1,4 +1,4 @@
-import {merge} from 'lodash';
+import { merge } from 'lodash';
 import path from 'path';
 
 // Default configuations applied to all environments
@@ -13,7 +13,10 @@ const defaultConfig = {
   },
   root: path.normalize(__dirname + '/../../..'),
   port: process.env.PORT || 4567,
-  ip: process.env.IP || '0.0.0.0'
+  ip: process.env.IP || '0.0.0.0',
+  logging: {
+    level: 'debug'
+  },
 };
 
 // Environment specific overrides
