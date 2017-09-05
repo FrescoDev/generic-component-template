@@ -19,14 +19,15 @@ The __API_NAME__ API is responsible for <description>
 
 1. Run `npm install` to install server dependencies, the post install script should then automatically run the build command which uses Babel to transpile the app into native javascript. The output is produced and output in the build directory
 
-2. Run: `npm start` to kickstart and run the server OR Run: `npm start | bunyan` to kickstart and run the server with prettyfied logging (*requires global install of bunyan). The logging level can be changed by editing the config file (src/api/config). For development, the server is configured to run on: http://localhost:9001/
+2. Run: `npm start` to kickstart and run the server OR Run: `npm start | bunyan` to kickstart and run the server with prettyfied logging (*requires global install of bunyan). The logging level can be changed by editing the config file (src/configuration). For development, the server is configured to run on: http://localhost:4567/
 
-* Run `npm start:watch` to start the server using nodemon which will restart upon file changeÏ
+* Run `npm start:watch` to start the server using nodemon which will restart upon file change
 
 ## Running the Tests
 
-* Running `npm test` will run the tests
+* Running `npm test` will run the tests and generate a HTML test report in mochawesome-report
 * Running `npm run test:watch` will run the tests using nodemon which will re-run the tests upon any file change
+* Running `npm run coverage` will run the tests and generate a coverage report in the coverage directory. 
 
 ## Testing the API
 
@@ -47,6 +48,6 @@ Example: http:/{url}/server-status
 Response body:
 
     {
-        "description": "__C_NAME__",
+        "description": "__API_NAME__",
         "status": "ok"
     }

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2017-09-05T18:21:40.798Z",
-    "end": "2017-09-05T18:21:40.952Z",
-    "duration": 154,
+    "start": "2017-09-05T18:25:01.455Z",
+    "end": "2017-09-05T18:25:01.508Z",
+    "duration": 53,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -41,8 +41,8 @@
                 "code": "_testing2.default.get('/server-status').end(function (err, res) {\n    expect(res).to.have.status(200);\n    expect(res.type).to.eql('application/json');\n    expect(res.body.status).to.eql('ok');\n    done();\n});",
                 "err": {},
                 "isRoot": false,
-                "uuid": "cc6f4fcd-7714-423f-be95-9debc89cf778",
-                "parentUUID": "0650ad15-31e8-478b-98e7-ae1a465eca4f",
+                "uuid": "93e8aee2-2faf-4a8b-b8f2-3282a41ddd8e",
+                "parentUUID": "e939b480-6f77-4388-8794-31094bb8d7ad",
                 "isHook": false,
                 "skipped": false
               }
@@ -51,7 +51,7 @@
             "root": false,
             "_timeout": 10000,
             "file": "/tests/scenarios/http.requests/get.server-startus.requests.test.js",
-            "uuid": "0650ad15-31e8-478b-98e7-ae1a465eca4f",
+            "uuid": "e939b480-6f77-4388-8794-31094bb8d7ad",
             "beforeHooks": [],
             "afterHooks": [],
             "fullFile": "/Users/kojohinson/LightwaveRF/dev/sandbox/generic-component-template/tests/scenarios/http.requests/get.server-startus.requests.test.js",
@@ -69,8 +69,8 @@
                 "code": "_testing2.default.get('/server-status').end(function (err, res) {\n    expect(res).to.have.status(200);\n    expect(res.type).to.eql('application/json');\n    expect(res.body.status).to.eql('ok');\n    done();\n});",
                 "err": {},
                 "isRoot": false,
-                "uuid": "cc6f4fcd-7714-423f-be95-9debc89cf778",
-                "parentUUID": "0650ad15-31e8-478b-98e7-ae1a465eca4f",
+                "uuid": "93e8aee2-2faf-4a8b-b8f2-3282a41ddd8e",
+                "parentUUID": "e939b480-6f77-4388-8794-31094bb8d7ad",
                 "isHook": false,
                 "skipped": false
               }
@@ -99,7 +99,7 @@
         "root": false,
         "_timeout": 10000,
         "file": "/tests/scenarios/http.requests/get.server-startus.requests.test.js",
-        "uuid": "06e41636-0f46-45a1-8c79-b982b49ef09a",
+        "uuid": "afa26180-87a9-4809-a0bb-7b426d7dc123",
         "beforeHooks": [],
         "afterHooks": [],
         "fullFile": "/Users/kojohinson/LightwaveRF/dev/sandbox/generic-component-template/tests/scenarios/http.requests/get.server-startus.requests.test.js",
@@ -127,7 +127,7 @@
     "pending": [],
     "root": true,
     "_timeout": 10000,
-    "uuid": "94293073-a07b-4770-b3ef-6259f109ddef",
+    "uuid": "08aeff40-5722-420e-bf89-d6b57930d5ad",
     "beforeHooks": [],
     "afterHooks": [],
     "fullFile": "",
@@ -165,8 +165,8 @@
       "code": "_testing2.default.get('/server-status').end(function (err, res) {\n    expect(res).to.have.status(200);\n    expect(res.type).to.eql('application/json');\n    expect(res.body.status).to.eql('ok');\n    done();\n});",
       "err": {},
       "isRoot": false,
-      "uuid": "cc6f4fcd-7714-423f-be95-9debc89cf778",
-      "parentUUID": "0650ad15-31e8-478b-98e7-ae1a465eca4f",
+      "uuid": "93e8aee2-2faf-4a8b-b8f2-3282a41ddd8e",
+      "parentUUID": "e939b480-6f77-4388-8794-31094bb8d7ad",
       "isHook": false,
       "skipped": false
     }
@@ -186,8 +186,8 @@
       "code": "_testing2.default.get('/server-status').end(function (err, res) {\n    expect(res).to.have.status(200);\n    expect(res.type).to.eql('application/json');\n    expect(res.body.status).to.eql('ok');\n    done();\n});",
       "err": {},
       "isRoot": false,
-      "uuid": "cc6f4fcd-7714-423f-be95-9debc89cf778",
-      "parentUUID": "0650ad15-31e8-478b-98e7-ae1a465eca4f",
+      "uuid": "93e8aee2-2faf-4a8b-b8f2-3282a41ddd8e",
+      "parentUUID": "e939b480-6f77-4388-8794-31094bb8d7ad",
       "isHook": false,
       "skipped": false
     }
